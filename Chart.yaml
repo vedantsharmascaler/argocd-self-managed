@@ -1,0 +1,7 @@
+apiVersion: v2
+name: argocd-self-managed
+version: 0.1.0
+dependencies:
+  - name: argo-cd
+    version: 7.6.12 # Use the desired ArgoCD Helm chart version
+    repository: https://argoproj.github.io/argo-helm
