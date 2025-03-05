@@ -7,7 +7,7 @@ argo-cd:
   controller:
     resources:
       limits:
-        cpu: 500m
+        cpu: 1000m
         memory: 256Mi
   dex:
     enabled: true
