@@ -6,7 +6,7 @@ metadata:
 spec:
   project: default
   source:
-    repoURL: https://github.com/deepaks374/argocd-self-managed # Replace with your GitHub repo URL
+    repoURL: https://github.com/vedantsharmascaler/argocd-self-managed # Replace with your GitHub repo URL
     targetRevision: main                                     # Replace "main" with the appropriate branch or tag
     path: .                                                  # Update to the directory containing the Helm chart
     helm:
